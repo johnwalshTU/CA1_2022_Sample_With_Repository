@@ -13,7 +13,7 @@ namespace CA1_2022_Sample.Controllers
         /// <summary>
         /// Constructor that allows us to inject a Repository
         /// NB : you need to add the following line to Program.cs =>
-        ///    builder.Services.AddScoped<IMatchRepo, MockMatchRepo>();
+        ///     builder.Services.AddScoped<IMatchRepo, MockMatchRepo>();
         /// </summary>
         /// <param name="repo"></param>
         public MatchesController(IMatchRepo repo)
